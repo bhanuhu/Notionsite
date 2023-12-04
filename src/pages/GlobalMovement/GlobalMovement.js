@@ -6,15 +6,16 @@ import GlobalMovementCard from './GlobalMovementCard';
 
 const GlobalMovement = () => {
     return (
-        <Box>
+        <Box sx={{mt:15}}>
             <Box>
-                <Typography>Join a global movement. Unleash your creativity.
-                </Typography>
-                <Typography>Our vibrant community produces content, teaches courses, and leads events all over the world.</Typography>
+                <Typography variant='h3' sx={{fontWeight:'bold'}}>Join a global movement.</Typography>
+                <Typography variant='h3' sx={{fontWeight:'bold'}}> Unleash your creativity.</Typography>
+                <Typography sx={{mt:2,mb:-1.5}}>Our vibrant community produces content, teaches courses, and leads events all </Typography>
+                <Typography sx={{mt:2,mb:2}}>over the world.</Typography>
                 <Button color='primary'>Learn More <ArrowForwardIcon color='primary' /></Button>
             </Box>
             <img src={avatars} />
-            <Box display='flex' justifyContent="space-evenly" width="80%" margin="auto">
+            <Box display='flex' justifyContent="space-evenly" width="80%" margin="auto" >
                 <GlobalMovementCard heading="1M+" text="community members" />
                 <GlobalMovementCard heading="150+"
                     text="community community groups" />

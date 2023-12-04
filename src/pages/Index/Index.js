@@ -13,6 +13,11 @@ import EveryTeam from '../Everyteam/EveryTeam';
 import GlobalMovement from '../GlobalMovement/GlobalMovement';
 import SupportNetwork from '../SupportNetwork/SupportNetwork';
 import CardAndSlider from '../CardAndSlider/CardAndSlider';
+import EndlessCard from '../EndlessWay/EndlessCard';
+import EndlessWay from '../EndlessWay/EndlessWay';
+import StartFree from '../StartFree/StartFree';
+import CarouselFadeExample from '../Carousel/Carousel1';
+import Bottom from '../bottom/Bottom';
 
 
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -50,6 +55,7 @@ function ResponsiveAppBar() {
             <ElevateAppBar />
             <Home />
             <QuestionAnsBox />
+            <CarouselFadeExample/>
             <CustStories />
             <ConsolidateCut />
             <PowerFulBuildingBlock />
@@ -58,7 +64,9 @@ function ResponsiveAppBar() {
             <GlobalMovement />
             <SupportNetwork />
             <CardAndSlider />
-
+            <EndlessWay />
+            <StartFree />
+            <Bottom/>
         </Box>
 
     );

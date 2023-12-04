@@ -32,5 +32,7 @@ import communityIcon from './community-icons-V2.webp'
 import deborah from './twitter-avatar-deborah.avif'
 import andre from './twitter-avatar-andre.png'
 import oliver from './twitter-avatar-oliver.png'
+import companyWiki from './company-wiki-template.webp'
+import parade from './notion-parade.webp'
 
-export { a, logo, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, pencil, sketch, board, list, gallery, table, timeline, calendar, customizeinfo, buildanypage, matchGrup, avatars, communityIcon, welcomeNotion, andre, oliver, deborah }
+export { a, logo, parade, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12, a13, a14, a15, pencil, sketch, board, list, gallery, table, timeline, calendar, customizeinfo, buildanypage, matchGrup, avatars, communityIcon, welcomeNotion, andre, oliver, deborah, companyWiki }

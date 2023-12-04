@@ -6,7 +6,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12 } from '../../images/images';
 const CustStories = () => {
     return (
-        <Box><Typography variant="h3" sx={{ fontWeight: "bold" }}>Millions run on Notion every day</Typography>
+        <Box marginTop="4rem"><Typography variant="h3" sx={{ fontWeight: "bold" ,mt:15}}>Millions run on Notion every day</Typography>
 
             <Typography>Powering the world’s best teams, from next-generation startups </Typography>
             <Typography>to established enterprises.</Typography>

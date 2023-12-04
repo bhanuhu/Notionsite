@@ -37,16 +37,16 @@ const QuestionAnsBox = (props) => {
         <Stack direction="row" >
 
             <Button variant="outlined" sx={{ color: 'black', borderRadius: '15px', ml: 30 }}>
-                <stack direction="column">
+                <Stack direction="column" sx={{mb:1}}>
 
-                    <Box>
+                    <Stack direction="row" sx={{mb:3 ,mt:2}}>
 
-                        <AutoAwesomeSharpIcon sx={{ color: 'purple', background: '#F0E1F9', borderRadius: '5px', mr: 2 }}></AutoAwesomeSharpIcon>
+                        <AutoAwesomeSharpIcon sx={{ color: 'purple', background: '#F0E1F9', borderRadius: '5px', mr: 2 ,p:.25}}></AutoAwesomeSharpIcon>
                         <Typography>AI</Typography>
-                        <Typography variant='caption' sx={{ color: 'purple', background: '#F0E1F9', borderRadius: '16px', ml: 2 }} >
+                        <Typography variant='caption' sx={{ color: 'purple', background: '#F0E1F9', borderRadius: '16px', ml: 2 ,pr:1,pl:1,pt:.5}} >
                             Now with Q & A
                         </Typography>
-                    </Box>
+                    </Stack>
                     <Box>
                         <Typography variant="caption" >
                             Ask literally anything. Notion
@@ -55,18 +55,18 @@ const QuestionAnsBox = (props) => {
                     <Typography variant="caption" >
                         will answer.
                     </Typography>
-                </stack>
+                </Stack>
             </Button>
 
             <Button variant="outlined" sx={{ color: 'black', borderRadius: '15px', ml: 2, mr: 2 }}>
-                <stack direction="column">
+                <Stack direction="column" sx={{mb:1}}>
 
-                    <Box>
+                    <Stack direction="row" sx={{mb:3 ,mt:2}}>
 
-                        <AutoStoriesOutlinedIcon sx={{ color: '#EA4E43', background: '#FCE9E8', borderRadius: '5px', mr: 2 }}></AutoStoriesOutlinedIcon>
+                        <AutoStoriesOutlinedIcon sx={{ color: '#EA4E43', background: '#FCE9E8', borderRadius: '5px', mr: 2,p:.25 }}></AutoStoriesOutlinedIcon>
                         <Typography>Wikis</Typography>
 
-                    </Box>
+                    </Stack>
                     <Box>
                         <Typography variant="caption" >
                             Centralize your knowledge.
@@ -75,17 +75,17 @@ const QuestionAnsBox = (props) => {
                     <Typography variant="caption" >
                         No more hunting for answer.
                     </Typography>
-                </stack>
+                </Stack>
             </Button>
             <Button variant="outlined" sx={{ color: 'black', borderRadius: '15px', mr: 2 }}>
-                <stack direction="column">
+                <Stack direction="column" sx={{mb:1}}>
 
-                    <Box>
+                    <Stack direction="row" sx={{mb:3 ,mt:2}}>
 
-                        <AutoAwesomeSharpIcon sx={{ color: '#0A85D1', background: '#E2ECF3', borderRadius: '5px', mr: 2 }}></AutoAwesomeSharpIcon>
+                        <AutoAwesomeSharpIcon sx={{ color: '#0A85D1', background: '#E2ECF3', borderRadius: '5px', mr: 2,p:.25 }}></AutoAwesomeSharpIcon>
                         <Typography>Projects</Typography>
 
-                    </Box>
+                    </Stack>
                     <Box>
                         <Typography variant="caption" >
                             Manage complex projects
@@ -94,17 +94,17 @@ const QuestionAnsBox = (props) => {
                     <Typography variant="caption" >
                         without the chaos.
                     </Typography>
-                </stack>
+                </Stack>
             </Button>
             <Button variant="outlined" sx={{ color: 'black', borderRadius: '15px' }}>
-                <stack direction="column">
+                <Stack direction="column" sx={{mb:1}}>
 
-                    <Box>
+                    <Stack direction="row" sx={{mb:3 ,mt:2}}>
 
-                        <DescriptionOutlinedIcon sx={{ color: '#FAA700', background: '#FFF6D6', borderRadius: '5px', mr: 2 }}></DescriptionOutlinedIcon>
+                        <DescriptionOutlinedIcon sx={{ color: '#FAA700', background: '#FFF6D6', borderRadius: '5px', mr: 2 ,p:.25}}></DescriptionOutlinedIcon>
                         <Typography>Docs</Typography>
 
-                    </Box>
+                    </Stack>
                     <Box>
                         <Typography variant="caption" >
                             Simple, powerful, beautiful.
@@ -113,7 +113,7 @@ const QuestionAnsBox = (props) => {
                     <Typography variant="caption" >
                         Next-gen notes & docs.
                     </Typography>
-                </stack>
+                </Stack>
             </Button>
         </Stack>
     )

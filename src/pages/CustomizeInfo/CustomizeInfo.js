@@ -1,4 +1,4 @@
-import { Box, flexbox } from '@mui/system'
+import { Box} from '@mui/system'
 import React from 'react'
 import { buildanypage, customizeinfo, matchGrup } from '../../images/images'
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
@@ -15,8 +15,8 @@ import SkipNextIcon from '@mui/icons-material/SkipNext';
 const CustomizeInfo = () => {
     const theme = useTheme();
     return (
-        <Box>
-            <Box width="80%" margin="auto" display="flex" justifyContent="space-between" marginTop="2rem">
+        <Box sx={{ml:27}}>
+            <Box width="83%"  display="flex" justifyContent="space-between" >
 
                 <Box bgcolor="#f3f3f3" width="49%" textAlign='left' borderRadius="10px" paddingTop="3rem">
                     <Box marginLeft="3rem"> <RemoveRedEyeIcon color='primary' />
@@ -37,10 +37,11 @@ const CustomizeInfo = () => {
 
                 </Box>
             </Box>
-            <Box width="45%" margin="auto">
-                <Typography fontSize="30px">"Notion adapts to your needs. It’s as minimal or as powerful as you need it to be."</Typography>
+            <Box width="55%" margin="auto" marginTop="2rem" sx={{ml:25}}>
+                <Typography fontSize="30px">"Notion adapts to your needs. It’s as minimal or as </Typography>
+                <Typography fontSize="30px">powerful as you need it to be."</Typography>
 
-                <Card sx={{ display: 'flex', justifyContent: "center" }}>
+                <Card sx={{ display: 'flex', justifyContent: "center", boxShadow: "none" }}>
 
                     <CardMedia
                         component="img"
@@ -49,14 +50,16 @@ const CustomizeInfo = () => {
                         alt="Live from space album cover"
                     />
                     <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                    
                         <CardContent sx={{ flex: '1 0 auto' }}>
-                            <Typography component="div" variant="p" fontWeight="bold">
+                            <Typography component="div" variant="p" fontWeight="bold" sx={{textAlign:'left'}}>
                                 Rahim Makani
                             </Typography>
                             <Typography variant="subtitle1" color="text.secondary" component="div">
                                 Director of Product, Matchgroup
                             </Typography>
                         </CardContent>
+                        
 
                     </Box>
                 </Card>
